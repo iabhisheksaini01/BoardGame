@@ -5,11 +5,10 @@
   <img src="./public/assets/app1.png" alt="Logo" width="100%" height="100%">
   <br>
     <img src="./public/assets/app2.png" alt="Logo" width="100%" height="100%">
+  <br>
+  <img src="./public/assets/app3.png" alt="Logo" width="100%" height="100%">
 </div>
 
-![Screenshot 2024-08-31 075411](https://github.com/user-attachments/assets/5761fb53-60a6-4df7-b36a-2c98d971e056)
-
-![Screenshot 2024-08-31 075445](https://github.com/user-attachments/assets/2ec51378-fcde-467d-ab70-45caa30d7a8e)
 
 
 # Setup Multi Node K8-Cluster using kubeadm [K8 Version-->1.28.1]
