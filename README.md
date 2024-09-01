@@ -1,7 +1,11 @@
 # BoardGame DevSecOps Project.
-![Screenshot 2024-08-31 074900](https://github.com/user-attachments/assets/6b506661-a4a4-4b25-9758-2da016e3843b).
 
-![Screenshot 2024-08-31 075337](https://github.com/user-attachments/assets/45eb990a-8579-490e-a856-1d24073b46a1)
+
+<div align="center">
+  <img src="./public/assets/app1.png" alt="Logo" width="100%" height="100%">
+  <br>
+    <img src="./public/assets/app2.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ![Screenshot 2024-08-31 075411](https://github.com/user-attachments/assets/5761fb53-60a6-4df7-b36a-2c98d971e056)
 
