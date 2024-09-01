@@ -188,8 +188,12 @@ sudo systemctl enable jenkins
    7. Maven Integration plugin
 
 4 . Add below mentioned credential in the jenkins.
-![Screenshot 2024-08-30 173123](https://github.com/user-attachments/assets/1767a5ea-aa7a-4436-bdd2-0d264fc890dc)
+
+<div align="center">
+  <img src="./public/assets/jenkins-cred.png" alt="Logo" width="100%" height="100%">
+</div>
 ```
+
 1.jenkinsAgent only for master-agent node config of jenkins no need here.
 2.sonar-cred , add sonar token
 3.git-cred , through username and password(git-token) of github (only for private Repo)
