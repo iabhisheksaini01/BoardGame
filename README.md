@@ -573,17 +573,24 @@ kill 2314   # 2314 is process id
 ###### Give DataSource as Prometheus
  
 ## Grafana DashBord for  For Your BoardGame Application.
-![Screenshot 2024-08-31 071334](https://github.com/user-attachments/assets/ec81ed02-fd26-49be-8073-f59c82541087)
+<div align="center">
+  <img src="./public/assets/app_monitor.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ## Grafana DashBord for  Prometheus Blackbox Exporter   
-![Screenshot 2024-08-31 071450](https://github.com/user-attachments/assets/a683ac2e-afd5-49bd-83f0-a3ea1ddf3196)
+<div align="center">
+  <img src="./public/assets/prometheus-monitor.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ## Monitoring Jenkins 
-![Screenshot 2024-08-31 071542](https://github.com/user-attachments/assets/7f2afb9f-f03f-4614-87a2-ae7e5e0b879b)
+<div align="center">
+  <img src="./public/assets/jenkins-monitor.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ## NodeExporter DashBoard For Jenkins
-![Screenshot 2024-08-31 071750](https://github.com/user-attachments/assets/27ea9409-9e7f-4f30-bf2f-bcefe656c672)
-
+<div align="center">
+  <img src="./public/assets/jenkins-node-exporter.png" alt="Logo" width="100%" height="100%">
+</div>
    
 
 
