@@ -194,9 +194,9 @@ sudo systemctl enable jenkins
 </div>
 ```
 
-1.jenkinsAgent only for master-agent node config of jenkins no need here.
-2.sonar-cred , add sonar token
-3.git-cred , through username and password(git-token) of github (only for private Repo)
+1.jenkinsAgent only for master-agent node config of jenkins no need here. /
+2.sonar-cred , add sonar token /
+3.git-cred , through username and password(git-token) of github (only for private Repo) /
 4.docker-cred , through username and password (docker-token)
 5.k8s-cred  , kubernetes cluster-name and secrete(password) or (below somewhere documented)
 6.gmail-cred  , through username and password(gmail-token)
