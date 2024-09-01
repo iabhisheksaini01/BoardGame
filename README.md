@@ -399,14 +399,17 @@ kubectl apply -f sec.yaml -n wenapps
 ```
 
 #### You will get like this , follow the below steps as shown in image. Here you will get 'service endpoint  & clusterName'
-![Screenshot 2024-08-30 183449](https://github.com/user-attachments/assets/d8aef006-a460-43fa-b797-aa6f7efeac25)
+<div align="center">
+  <img src="./public/assets/k8s-endpoint.png" alt="Logo" width="100%" height="100%">
+</div>
 
 #### To get the token. Copy the token and use in k8s-cred.
 ```
 kubectl describe secret mysecretname -n webapps
 ```
-![Screenshot 2024-08-30 184152](https://github.com/user-attachments/assets/bdcaf287-7c2f-4af6-9cdf-6248903ed1a4) 
-
+<div align="center">
+  <img src="./public/assets/k8s-token.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ## ----------------------------------- SetUp Monitoring For Our Application. --------------------------------------------.
 Create the EC2 t2.large ubuntu machine with 30GB memory storage.
@@ -447,8 +450,9 @@ Execute the .prometheus file to install the prometheus.
 ```
 
 ###### Access the prometheus in 'publicIP:9090'
-![Screenshot 2024-08-30 185715](https://github.com/user-attachments/assets/a82e64f0-b9b2-4478-b31a-56ed4af78094)
-
+<div align="center">
+  <img src="./public/assets/prometheus.png" alt="Logo" width="100%" height="100%">
+</div>
 
 
 ## Install the Grafana.
@@ -459,7 +463,9 @@ sudo dpkg -i grafana-enterprise_11.2.0_amd64.deb
 ```
 
 ###### Access the Grafana in 'publicIP:3000'
-![Screenshot 2024-08-30 190049](https://github.com/user-attachments/assets/51318b09-8a87-4e3c-bdbe-c0be13372abd)
+<div align="center">
+  <img src="./public/assets/grafana.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ## Install the BlackBox Exporter
 ```
@@ -470,7 +476,10 @@ cd blackbox_exporter-0.25.0.linux-amd64
 ./blackbox_exporter
 ```
 ###### Access the  BlackBox Exporter in 'publicIP:9115'
-![Screenshot 2024-08-30 135532](https://github.com/user-attachments/assets/4a883d5f-834e-4316-b263-3f747e8ad89a)
+<div align="center">
+  <img src="./public/assets/blackbox.png" alt="Logo" width="100%" height="100%">
+</div>
+
 
 ## Install the Node_Exporter in Jenkins Server Machine.
 ```
@@ -481,8 +490,10 @@ cd node_exporter-1.8.2.linux-amd64
 ./node_exporter
 ```
 ###### Access the  Node_Exporter in 'publicIP:9115'
-![Screenshot 2024-08-30 191259](https://github.com/user-attachments/assets/6dfb5034-6500-4de6-9f10-9de641eb88af)
 
+<div align="center">
+  <img src="./public/assets/nodeexporter.png" alt="Logo" width="100%" height="100%">
+</div>
 
 #### Add the job to a prometheus
 ```
@@ -526,8 +537,9 @@ scrape_configs:
         replacement: 43.204.97.37:9115  # The blackbox exporter's real hostname:port.
 ~                                                                                                                                                                                                               "prometheus.yml" 54L, 1695B                                                                       
 ```
-![Screenshot 2024-08-30 192131](https://github.com/user-attachments/assets/6faf8c6c-5b9e-4026-b35d-6d8c334003be)
-
+<div align="center">
+  <img src="./public/assets/prometheus_job.png" alt="Logo" width="100%" height="100%">
+</div>
 Here replace with your respective 'publicIP'
 
 ```
@@ -540,8 +552,9 @@ kill 2314   # 2314 is process id
 ./prometheus &
 ```
 ## After this your Prometheus looks like.
-![Screenshot 2024-08-30 200016](https://github.com/user-attachments/assets/5bec73b4-7713-484b-b4ff-60e924c28ae6)
-
+<div align="center">
+  <img src="./public/assets/prometheus_target.png" alt="Logo" width="100%" height="100%">
+</div>
 
 
 ## ----------------------------------------------------- Grafana SetUp -------------------------------------------------------------
