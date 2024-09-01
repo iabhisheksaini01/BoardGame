@@ -3,9 +3,12 @@
 
 <div align="center">
   <img src="./public/assets/app1.png" alt="Logo" width="100%" height="100%">
+  
   <br>
+  
     <img src="./public/assets/app2.png" alt="Logo" width="100%" height="100%">
   <br>
+  
   <img src="./public/assets/app3.png" alt="Logo" width="100%" height="100%">
 </div>
 
