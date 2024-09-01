@@ -136,7 +136,9 @@ You will get like this after initialization of cluster (In step 1 on the master 
 ```
 kubectl get pods --all-namespaces
 ```
-![Screenshot 2024-08-30 171503](https://github.com/user-attachments/assets/769473d6-8274-4c40-aabf-a62fe7dfca97)
+<div align="center">
+  <img src="./public/assets/k8sVarify.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ```
 kubectl get nodes
