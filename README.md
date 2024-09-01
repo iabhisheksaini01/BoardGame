@@ -739,33 +739,48 @@ pipeline {
 ## Build Sucessfull...
 
 ###### Pipeline Overview
-![Screenshot 2024-08-31 072854](https://github.com/user-attachments/assets/6e4580bf-6397-47a9-a350-333e8ce104d2)
+<div align="center">
+  <img src="./public/assets/pipeline-build.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### Build Success.
-![Screenshot 2024-08-31 072617](https://github.com/user-attachments/assets/f72c03d5-23b1-447b-8390-3f8a67f6988f)
-
+<div align="center">
+  <img src="./public/assets/jenkins-job-success.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### SonarQube Working Correct. Code is Checked. And Failed & Report to the Developer.
-![Screenshot 2024-08-31 073610](https://github.com/user-attachments/assets/6ba39774-194a-4e0c-b29d-c825c3379951)
+<div align="center">
+  <img src="./public/assets/sonar-execut.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### The project artifactory pushed to the Nexus Repository.
-![Screenshot 2024-08-31 074101](https://github.com/user-attachments/assets/c3b2773f-a54d-4aa6-8bf4-49028380275b)
+<div align="center">
+  <img src="./public/assets/nexus-push.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### The Docker Image is created and pushed to DockerHub.
-![Screenshot 2024-08-31 074405](https://github.com/user-attachments/assets/2aa738dc-46e0-4932-81c3-7bab8fd3fb4a)
+<div align="center">
+  <img src="./public/assets/dockerPush.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### The Docker Image sucessfully deployed in the K8s Cluster.
-![Screenshot 2024-08-31 074630](https://github.com/user-attachments/assets/5c1621c5-248a-4a4b-8c95-d900ad78432e)
+<div align="center">
+  <img src="./public/assets/k8s-depoly.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### The Email was sent on success.
-![Screenshot 2024-08-31 075801](https://github.com/user-attachments/assets/dc97ad57-b967-45f1-88aa-be38f888c476)
+<div align="center">
+  <img src="./public/assets/email-sent.png" alt="Logo" width="100%" height="100%">
+</div>
 
 #### The Trivy Scan file is uploaded.
 
 ## -------------------------------------------------------------------------------------------------------------------------------------------------
 
 # TO ACCESS BOARDGAME APPLICATION [publicIP:NodePortNumber]  (publicIP of slaveNode)
-![Screenshot 2024-08-31 074900](https://github.com/user-attachments/assets/6b506661-a4a4-4b25-9758-2da016e3843b)
+<div align="center">
+  <img src="./public/assets/app1.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ### Run the application
 ### To use initial user data, use the following credentials.
