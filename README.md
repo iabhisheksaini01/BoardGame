@@ -192,7 +192,6 @@ sudo systemctl enable jenkins
 <div align="center">
   <img src="./public/assets/jenkins-cred.png" alt="Logo" width="100%" height="100%">
 </div>
-```
 
 1. jenkinsAgent only for master-agent node config of jenkins no need here. \
 2. sonar-cred , add sonar token \
@@ -200,7 +199,8 @@ sudo systemctl enable jenkins
 4. docker-cred , through username and password (docker-token) \
 5. k8s-cred  , kubernetes cluster-name and secrete(password) or (below somewhere documented) \
 6. gmail-cred  , through username and password(gmail-token) \
-```
+7. 
+
 
 #### Install Docker and Trivy on Jenkins Machine
 ###### Docker Installation 
@@ -228,7 +228,10 @@ sudo systemctl restart jenkins
 ```
 
 ###### In AWS SG open the below mentioned port number as shown in Image. And Use same Security group for all the instances while doing project.
-![Screenshot 2024-08-30 174855](https://github.com/user-attachments/assets/668dac40-c17f-4b10-b2d6-1513067d723e)
+
+<div align="center">
+  <img src="./public/assets/portNumber.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ### Create a 2 more t2.large with 20GB storage space ubuntu machine for SonarQube and Nexus Repository.
 
@@ -238,7 +241,9 @@ sudo systemctl restart jenkins
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 2. Access this --> PublicIP:9090 and you will get like this. And use 'admin' as a username and password for 1st. And Change to new one.
-![Screenshot 2024-08-30 175718](https://github.com/user-attachments/assets/0ebd0d2d-1a90-42a3-af87-5d77f5deb974)
+<div align="center">
+  <img src="./public/assets/sonarQuber.png" alt="Logo" width="100%" height="100%">
+</div>
 
 
 
@@ -247,11 +252,15 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 docker run -d --name Nexus -p 8081:8081 sonatype/nexus3
 ```
-2. Access this --> PublicIP:9090 and you will get like this. And use 'admin' as a username adn for password follow as shown in 2nd image. for 1st. And Change to new one.
-![Screenshot 2024-08-30 180053](https://github.com/user-attachments/assets/f3f6812e-a414-4ed8-8dfe-81fab4448108)
+2. Access this --> PublicIP:8081 and you will get like this. And use 'admin' as a username adn for password follow as shown in 2nd image. for 1st. And Change to new one.
+<div align="center">
+  <img src="./public/assets/nexus.png" alt="Logo" width="100%" height="100%">
+</div>
 
 ###### Password for Nexus
-![Screenshot 2024-08-29 144849](https://github.com/user-attachments/assets/e3249a1c-77f6-489e-b412-e9750ce58111)
+<div align="center">
+  <img src="./public/assets/nexuspassword.png" alt="Logo" width="100%" height="100%">
+</div>
 
 
 ##### In Sonar create token , copy that and create sonar-cred in jenkins
