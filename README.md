@@ -144,7 +144,9 @@ kubectl get pods --all-namespaces
 kubectl get nodes
 ```
 
-![Screenshot 2024-08-30 171522](https://github.com/user-attachments/assets/67c7900c-6c52-4277-b314-5ef7068add7d)
+<div align="center">
+  <img src="./public/assets/kubectlgetnodes.png" alt="Logo" width="100%" height="100%">
+</div>
 
 
 #######                                                       K8s Part Done              
