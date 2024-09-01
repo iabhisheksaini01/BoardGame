@@ -242,7 +242,7 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 2. Access this --> PublicIP:9090 and you will get like this. And use 'admin' as a username and password for 1st. And Change to new one.
 <div align="center">
-  <img src="./public/assets/sonarQuber.png" alt="Logo" width="100%" height="100%">
+  <img src="./public/assets/sonarQube.png" alt="Logo" width="100%" height="100%">
 </div>
 
 
