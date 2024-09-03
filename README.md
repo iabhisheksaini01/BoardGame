@@ -489,7 +489,7 @@ rm node_exporter-1.8.2.linux-amd64.tar.gz
 cd node_exporter-1.8.2.linux-amd64
 ./node_exporter
 ```
-###### Access the  Node_Exporter in 'publicIP:9115'
+###### Access the  Node_Exporter in 'publicIP:9100'
 
 <div align="center">
   <img src="./public/assets/nodeexporter.png" alt="Logo" width="100%" height="100%">
